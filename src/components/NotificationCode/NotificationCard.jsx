@@ -27,7 +27,7 @@ function clickedCard (id){
               {notification.filter((n) => n.isUnread).length}
             </span>
           </div>
-          <button id="markAll" onClick={markAllToRead}>Mark all as read</button>
+          <button id="markAll"className="markAll" onClick={markAllToRead}>Mark all as read</button>
         </div>
 
         {notification &&
